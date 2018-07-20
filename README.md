@@ -1,2 +1,2 @@
 # API-Conversion
-A converter is made to convert Google API to IBM(Watson) API
+A converter is made to convert Google API to IBM(Watson) API in Python
