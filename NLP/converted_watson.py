@@ -2,7 +2,7 @@ from __future__ import print_function
 import json
 from watson_developer_cloud import NaturalLanguageUnderstandingV1
 from watson_developer_cloud.natural_language_understanding_v1 import Features, EntitiesOptions, KeywordsOptions
-natural_language_understanding = NaturalLanguageUnderstandingV1(version='2017-02-27',username='ad1af379-1947-47bd-8ddd-63046e9deefb',password='X5HxOGCwU64N')
+natural_language_understanding = NaturalLanguageUnderstandingV1(version='2017-02-27',username='',password='')
 input_text='Bruce Banner is the Hulk and Bruce Wayne is BATMAN! Superman fears not Banner, but Wayne.'
 response = natural_language_understanding.analyze(text=input_text,features=Features(entities=EntitiesOptions(), keywords=KeywordsOptions()))
 print(json.dumps(response, indent=2))
