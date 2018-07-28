@@ -14,7 +14,7 @@ with open("Google_visual.py") as f:
 
     
     	if "os.environ['GOOGLE_APPLICATION_CREDENTIALS']='/home/aman/Desktop/Final/Vison/NewAgent-880fdb455b33.json'" in a:
-    		credentials="visual_recognition = VisualRecognitionV3(version='2018-03-19',iam_api_key='xRyzBKyrS6OlzRB8jhSPLxwB4vkaIG9MvU4-fmCGMsgD')"
+    		credentials="visual_recognition = VisualRecognitionV3(version='2018-03-19',iam_api_key='')"
 	
     	if "detect_labels('banana.jpeg')" in a:
     		input_image="path = join(dirname(__file__), 'banana1.jpeg')"
