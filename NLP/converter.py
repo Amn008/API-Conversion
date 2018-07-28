@@ -21,7 +21,7 @@ with open("GoogleNLP.py") as f:
             import_statement3="from watson_developer_cloud.natural_language_understanding_v1 import Features, EntitiesOptions, KeywordsOptions"
     
     	if "os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = r'/home/aman/Desktop/Final/NLP/NewAgent-24b28450e41c.json'" in a:
-    		credentials="natural_language_understanding = NaturalLanguageUnderstandingV1(version='2017-02-27',username='ad1af379-1947-47bd-8ddd-63046e9deefb',password='X5HxOGCwU64N')"
+    		credentials="natural_language_understanding = NaturalLanguageUnderstandingV1(version='2017-02-27',username='',password='')"
 
         if "text = 'Bruce Banner is the Hulk and Bruce Wayne is BATMAN!.Superman fears not Banner, but Wayne.'" in a:
             input_text="input_text='Bruce Banner is the Hulk and Bruce Wayne is BATMAN! Superman fears not Banner, but Wayne.'"
