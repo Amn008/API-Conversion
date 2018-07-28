@@ -3,8 +3,8 @@ from os.path import join, dirname
 from watson_developer_cloud import TextToSpeechV1
 
 text_to_speech = TextToSpeechV1(
-username='55574fb4-53b2-4212-afc4-52cc2b304d96',
-password='Ns8GQjWPqsJu')
+username='',
+password='')
 
 #print(json.dumps(text_to_speech.list_voices(), indent=2))
 
