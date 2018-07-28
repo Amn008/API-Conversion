@@ -18,7 +18,7 @@ with open("Google_language_translator.py") as f:
     		import_statement="from __future__ import print_function"+"\n"+"from watson_developer_cloud import LanguageTranslatorV3"+"\n"+"import json"
     
     	if "os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = r'/home/aman/Desktop/Final/LanguageTranslator/NewAgent-9c23594fa4f6.json" in a:
-    		credentials="language_translator = LanguageTranslatorV3(version='2018-05-31',username='b0c787c9-5a0e-47a9-a558-cede8d8a501a',password='CYFEqCfPFe6w')"
+    		credentials="language_translator = LanguageTranslatorV3(version='2018-05-31',username='',password='')"
 
         if "example_text ='Hola, cómo estás?'" in a:
             input_text="example_text ='Hola, cómo estás?'"
