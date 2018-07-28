@@ -12,7 +12,7 @@ with open("google_speech_to_text.py") as f:
     		import_statement="from watson_developer_cloud import SpeechToTextV1"+"\n"+"from os.path import join, dirname"
     
     	if 'cred="AIzaSyCRptLxqzkiWw4JBwIefCcMuKDJaWGwadE"' in a:
-    		credentials="cred= SpeechToTextV1(username='0e66a1df-d369-43fe-b32f-1d18c199314f',password='bIeZjddxuyWW')"
+    		credentials="cred= SpeechToTextV1(username='',password='')"
 	
     	if 'with sr.AudioFile("output.wav") as source:' in a:
     		open_file="with open(join(dirname(__file__), 'output.wav'),'rb') as source:"
